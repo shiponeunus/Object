@@ -1,0 +1,182 @@
+
+body{
+background: rgb(255,253,208);
+background: linear-gradient(-90deg, rgba(255,253,208,1) 0%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 100%);
+}
+.mainContainer{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 15% 30% 20%;
+  column-gap: 2vmin;
+  row-gap: 2vmin;
+}
+.tornado1{
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start:1;
+  grid-column-end: span 2;
+  width: 70%;
+  margin-left: 15vmin;
+  filter: drop-shadow(-2px 2px 5px black);
+}
+.whirlpool{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:2;
+  grid-column-end: span 2;
+  width: 30%;
+  margin-left: 17vmin;
+  padding-top: 25vmin;
+  filter: drop-shadow(2px 2px 2px black);
+}
+.metal1{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:4;
+  grid-column-end: span 3;
+  width: 70%;
+  margin-top: 55%;
+  margin-left: 5vmin;
+  filter: drop-shadow(-2px 0px 4px black);
+}
+.levitating1{
+  grid-row-start: 1;
+  grid-row-end: span 2;
+  grid-column-start:1;
+  grid-column-end: span 1;
+  width: 80%;
+  padding: 5vmin;
+}
+.text{
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start:2;
+  width: 95%;
+  grid-column-end: span 1;
+  padding: 5vmin;
+  padding-left: 2vmin;
+}
+.man2{
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start:3;
+  grid-column-end: span 1;
+  width: 80%;
+  padding: 2vmin;
+filter: drop-shadow(0px 10px 10px black);
+}
+.volcano{
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start:4;
+  grid-column-end: span 2;
+  width: 50%;
+  padding-left:15vmin;
+  padding-top: 10vmin;
+  filter: drop-shadow(1px 1px 3px black);
+}
+.lava{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:4;
+  grid-column-end: span 2;
+  width: 55%;
+  padding-top: 5vmin;
+  padding-left:1vmin;
+  filter: drop-shadow(2px 2px 2px black);
+}
+.mirrorbreaking1{
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  grid-column-start:2;
+  grid-column-end: span 1;
+  width: 100%;
+  filter: drop-shadow(-2px 3px 4px black);
+}
+.brain{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:3;
+  grid-column-end: span 1;
+  width: 70%;
+  padding-top: 25vmin;
+  margin-left: 15vmin;
+  filter: drop-shadow(0px 2px 2px black);
+}
+.timemelting{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:3;
+  grid-column-end: span 1;
+  width: 80%;
+  padding-top: 4vmin;
+  /* box-shadow: inset 3px 4px 5px black; */
+}
+.psych{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:2;
+  grid-column-end: span 1;
+  width: 35%;
+  margin-left: 90%;
+  margin-top: 5vmin;
+  filter: drop-shadow(2px 2px 2px black);
+}
+.limitlesspill{
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start:3;
+  grid-column-end: span 1;
+  width: 90%;
+  padding-top: 10vmin;
+  padding-left: 18vmin;
+  filter: drop-shadow(-1px 1px 2px black);
+}
+.truman{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:2;
+  grid-column-end: span 1;
+  width: 60%;
+  margin-top: 30vmax;
+  margin-left: 17vmax;
+  filter: drop-shadow(-2px 3px 3px black);
+}
+.akira{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:1;
+  grid-column-end: span 1;
+  width: 90%;
+  padding-top: 10vmin;
+  padding-left: 9vmin;
+filter: drop-shadow(0px 7px 9px black);
+}
+.matrix{
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start:3;
+  grid-column-end: span 1;
+  width: 100%;
+  padding-top: 1vmin;
+  padding-left: 9vmin;
+}
+.maze{
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start:4;
+  grid-column-end: span 1;
+  width: 55%;
+  margin-left: 20vmin;
+  margin-top: 7vmin;
+}
+.metal2{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start:4;
+  grid-column-end: span 1;
+  width: 86%;
+  padding-top: 20vmin;
+  padding-left:29vmin;
+filter: drop-shadow(0px 1px 1px black);
+}
